@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-image: url('/resources/images/upsideDown.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+#header h1,
+#header h2 {
+    max-width: 80%;
+    text-align: center;
+    letter-spacing: 30px;
+}
+
+#header h1 {
+    padding-top: 18%;
+}
+
+#header h2 {
+    padding-top: 2%;
+}
+
+#header h1 span {
+    color: white;
+}
+
+.profile img {
+    border-radius: 50%;
+    margin-top: -95px;
+    border: 7px solid white;
+    box-shadow: -1px 4px 20px 1px rgb(204, 204, 204);
+    margin-left: 80px;
+}
+
+.profile h3 {
+    margin-left: 290px;
+    margin-top: -60px;
+    opacity: 0.7;
+}
+
+.cornerImg {
+    background-image: url('/resources/images/womanBag.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 100px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.cornerImgSub {
+    width: 47%;
+    opacity: 0.8;
+    margin-left: 45%;
+    margin-top: 5%;
+    padding: 2%;
+    box-shadow: -1px 4px 20px 1px hsl(179deg 64% 46%);
+}
+
+.cornerImgSub h2 {
+    font-family: 'Eagle Lake', cursive;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.cornerImgSub p {
+    padding-top: 10px;
+    line-height: 30px;
+    font-size: 1.5vw;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+}
+
+.cornerImgSub a {
+    cursor: pointer;
+    text-decoration: none;
+    color: gold;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(5, 48, 34);
+}
+
+.ticketContainer {
+    background-image: url('/resources/images/ticket1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 100px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.ticket {
+    width: 47%;
+    opacity: 0.8;
+    margin-top: 5%;
+    margin-left: 80px;
+    padding: 2%;
+    box-shadow: -1px 4px 20px 1px hsl(49deg 81% 27% / 93%);
+}
+
+.ticket h2 {
+    font-family: 'Eagle Lake', cursive;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.ticket p {
+    padding-top: 10px;
+    line-height: 30px;
+    font-size: 1.5vw;
+    font-family: 'Work Sans', sans-serif;
+    color: white;
+}
+
+.dressingContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 55px;
+}
+
+.dressing {
+    margin-top: 5%;
+    padding: 2%;
+    box-shadow: -1px 4px 20px 1px hsl(16deg 11% 83%);
+    z-index: 1;
+}
+
+.dressing h2 {
+    font-family: 'Eagle Lake', cursive;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.dressing p {
+    line-height: 30px;
+    font-size: 1.5vw;
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(75, 74, 74);
+}
+
+.footerContainer {
+    background-image: url('/resources/images/footer.jpg');
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 4%;
+    color: rgb(153, 153, 153);
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+ul li {
+    padding: 30px;
+    border: 2px solid;
+    font-family: 'Eagle Lake', cursive;
+    box-shadow: -1px 4px 20px 2px hsl(0deg 0% 41%);
+    cursor: pointer;
+}
+
+ul li:hover {
+    background-color: hsl(186deg 33% 55%);
+    color: white;
+}
+
+#contact {
+    padding: 5%;
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Work Sans', sans-serif;
+    color: aliceblue;
+}
+
+@media only screen and (max-width: 1155px) {
+    .dressingContainer,
+    ul {
+        flex-direction: column;
+    }
+    .dressing {
+        box-shadow: -1px 4px 20px 1px hsl(186deg 33% 55%);
+    }
+}
